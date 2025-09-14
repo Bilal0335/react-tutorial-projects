@@ -7,12 +7,12 @@ export const TodoContext = createContext({
       todo: "Todo Msg",
       completed: false,
     },
-  ], 
+  ],
 
   addTodo: (todo) => {},
   updateTodo: (id, todo) => {},
   deletedTodo: (id) => {},
-  ToggleComplete: (id) => {},
+  toggleCompleted: (id) => {},
 });
 
 // Custom hook to use Context
